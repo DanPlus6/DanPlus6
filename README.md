@@ -1,5 +1,5 @@
 ![GitHub stats](https://github-readme-stats-seven-pi-85.vercel.app/api?username=danplus6&theme=vue&show_icons=true)
-![Top Langs](https://github-readme-stats-seven-pi-85.vercel.app/api/top-langs/?username=danplus6&theme=vue&langs_count=5)
+![Top Langs](https://github-readme-stats-seven-pi-85.vercel.app/api/top-langs/?username=danplus6&theme=vue&langs_count=3)
 
 <img width="560" height="572" alt="image" src="https://github.com/user-attachments/assets/d887a6f7-b3e5-470b-8722-dbcbc97b4267" />
 
