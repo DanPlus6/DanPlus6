@@ -13,7 +13,10 @@
 </h1>
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/fu-david/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <!-- linkedin svg go brr -->
+    <a href="https://www.linkedin.com/in/fu-david/" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgaGVpZ2h0PSIyNCIgd2lkdGg9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIwLjQ1IDIwLjQ1aC0zLjU1di01LjU0YzAtMS4zMi0uMDMtMy4wMi0xLjg0LTMuMDItMS44NCAwLTIuMTIgMS40NC0yLjEyIDIuOTJ2NS42NGgtMy41NVY5aDMuNDF2MS41NmgwLjA1Yy40Ny0uODkgMS42Mi0xLjg0IDMuMzMtMS44NCAzLjU2IDAgNC4yMiAyLjM0IDQuMjIgNS4zOHY2LjM1ek01LjMzIDcuNDVjLTEuMTQgMC0yLjA2LS45My0yLjA2LTIuMDYgMC0xLjE0LjkyLTIuMDYgMi4wNi0yLjA2IDEuMTQgMCAyLjA2LjkyIDIuMDYgMi4wNiAwIDEuMTMtLjkyIDIuMDYtMi4wNiAyLjA2ek03LjExIDIwLjQ1SDMuNTVWOWgzLjU2djExLjQ1eiIvPjwvc3ZnPg==&logoColor=white" alt="LinkedIn">
+    </a>
     <a href="https://keybase.io/danplus6" target="_blank"><img src="https://img.shields.io/badge/Keybase-orange?style=for-the-badge&logo=keybase&logoColor=white" alt="Keybase"></a>
     <a href="mailto:d4nplus6@gmail.com" target="_blank"><img src="https://img.shields.io/badge/GMail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail"></a>
 </p>
