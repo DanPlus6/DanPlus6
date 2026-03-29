@@ -9,14 +9,14 @@
     </a>
     <a href="https://keybase.io/danplus6" target="_blank"><img src="https://img.shields.io/badge/Keybase-orange?style=for-the-badge&logo=keybase&logoColor=white" alt="Keybase"></a>
     <a href="mailto:d4nplus6@gmail.com" target="_blank"><img src="https://img.shields.io/badge/GMail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Mail"></a>
-</p>
+  </p>
 </div>
 
 <h1 align="center">Github Stats:</h1>
 <div align="center">
   <img src="https://github-readme-stats-dosx001.vercel.app/api/?username=danplus6&count_private=true&include_all_commits=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=151515"/> 
   <img src="https://github-readme-stats-dosx001.vercel.app/api/top-langs/?username=danplus6&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=151515&exclude_repo=ICS3U1,ICS3U1-UnitAProject1,ICS3U1-UnitAProject2"/>
-  <img alt="DanPlus6's Github Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=danplus6&theme=black-ice&hide_border=true&background=0d1117" />
+  <img alt="DanPlus6's Github Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=danplus6&theme=black-ice&hide_border=false&background=0d1117" />
 </div>
 
 <h1 align="center">Competitive Programming Stats</h1>
