@@ -25,6 +25,10 @@
   <img alt="DanPlus6's Github Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=danplus6&theme=black-ice&hide_border=true&background=0d1117" />
 </div>
 
+<div style="white-space: nowrap; align-items: center; justify-content: center;">
+  <h1 align="center">Competitive Programming Stats</h1>
+  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&disable_animations=false&show_icons=true&force_username=true"/></a>
+</p>
 
 
 
