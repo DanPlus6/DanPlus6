@@ -3,7 +3,7 @@
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FDanPlus6&label=Profile%20Views%20%F0%9F%91%8B&countColor=%232ccce4&style=flat" />
 </div>
 
-<div align="center" style="white-space: nowrap;">
+<div align="center">
   <img src="https://github-readme-stats-dosx001.vercel.app/api/?username=danplus6&count_private=true&include_all_commits=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=151515"/> 
   <img src="https://github-readme-stats-dosx001.vercel.app/api/top-langs/?username=danplus6&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=151515&exclude_repo=ICS3U1,ICS3U1-UnitAProject1,ICS3U1-UnitAProject2"/>
 </div>
@@ -24,10 +24,11 @@
 </div>
 
 <h1 align="center">Competitive Programming Stats</h1>
-<div style="white-space: nowrap; align-items: center; justify-content: center;">
+<div align="center">
   <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&disable_animations=false&show_icons=true&force_username=true" /></a>
+  &nbsp;
   <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" /></a>
-</p>
+</div>
 
 
 
