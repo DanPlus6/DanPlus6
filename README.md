@@ -21,8 +21,7 @@
 
 <h1 align="center">Competitive Programming Stats</h1>
 <p align="center">
-  <!-- &nbsp; -->
-  <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" /></a>
-  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&disable_animations=false&show_icons=true&force_username=true" /></a>
+  <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" width=450 /></a>
+  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&disable_animations=false&show_icons=true&force_username=true" width=375 /></a>
 </p>
 
