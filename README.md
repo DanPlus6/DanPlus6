@@ -14,7 +14,7 @@
 
 <h1 align="center">Github Stats:</h1>
 <div align="center">
-  <img src="https://github-readme-stats-dosx001.vercel.app/api/?username=danplus6&count_private=true&include_all_commits=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=101010&border_color=35373a" width=500 /> 
+  <img src="https://github-readme-stats-dosx001.vercel.app/api/?username=danplus6&include_all_commits=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=101010&border_color=35373a" width=500 /> 
   <img src="https://github-readme-stats-dosx001.vercel.app/api/top-langs/?username=danplus6&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=101010&border_color=35373a&exclude_repo=ICS3U1,ICS3U1-UnitAProject1,ICS3U1-UnitAProject2" width=329 />
   <img alt="DanPlus6's Github Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=danplus6&theme=black-ice&hide_border=false&background=101010&border=35373a" width=500 />
 </div>
