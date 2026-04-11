@@ -20,11 +20,11 @@
   <img alt="DanPlus6's Github Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=danplus6&theme=black-ice&hide_border=false&background=101010&border=35373a" width=500 />
 </div>
 
-<h1 align="center">Competitive Programming Stats</h1>
+<h2 align="center">Competitive Programming Stats</h2>
 <p align="center">
   <!-- <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" width=450 /></a> -->
   
   <!-- width to 376 if leetcode stat card is next to it -->
-  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&bg_color=101010&border_color=35373a&disable_animations=false&show_icons=true&force_username=true" width=1280 height=300 /></a>
+  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&bg_color=101010&border_color=35373a&disable_animations=false&show_icons=true&force_username=true" width=1280 height=250 /></a>
 </p>
 
