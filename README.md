@@ -22,8 +22,8 @@
 
 <h2 align="center">Competitive Programming Stats</h2>
 <p align="center">
-  <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" width=450 /></a>
+  <!-- <a href="https://leetcode.com/u/DanPlus6/"><img src="https://leetcard.jacoblin.cool/danplus6?ext=heatmap" width=450 /></a> -->
   <!-- width is 376 if only with leetcode-->
-  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&bg_color=101010&border_color=35373a&disable_animations=false&show_icons=true&force_username=true" width=376 /></a>
+  <a href="https://codeforces.com/profile/danplus6"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=danplus6&theme=github_dark&bg_color=101010&border_color=35373a&disable_animations=false&show_icons=true&force_username=true" width=450 /></a>
 </p>
 
