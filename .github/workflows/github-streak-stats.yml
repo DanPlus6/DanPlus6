@@ -3,6 +3,7 @@ name: Update github streak stats
 on:
   schedule:
     - cron: "0 0 * * *" # Runs once daily at midnight
+  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/github-streak-stats.yml" # Run any time this file is modified
@@ -10,6 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
     permissions:
       contents: write
 
@@ -20,7 +22,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=${{ github.repository_owner }}&theme=black-ice&hide_border=false&background=101010&border=35373a #&disable_animations=true
-          path: assets/github-streak-stats.svg
+          path: assets/gh-streak-stats.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Commit streak stats
@@ -28,7 +30,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add "assets/github-streak-stats.svg"
+          git add "assets/gh-streak*.svg"
           git commit -m "Update streak stats" || exit 0
           
           git fetch origin main
