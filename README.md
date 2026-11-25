@@ -15,9 +15,9 @@
 
 <h1 align="center">Github Stats:</h1>
 <div align="center">
-  <img alt="DanPlus6's Github Stats" src="./assets/github-stats.svg" width=500 /> 
-  <img alt="DanPlus6's Top Languages" src="./assets/top-langs.svg" width=329 />
-  <img alt="DanPlus6's Github Streak" src="./assets/github-streak-stats.svg" width=500 />
+  <img alt="DanPlus6's Github Stats" src="./assets/gh-stat.svg" width=500 /> 
+  <img alt="DanPlus6's Top Languages" src="./assets/gh-stat-top-langs.svg" width=329 />
+  <img alt="DanPlus6's Github Streak" src="./assets/gh-streak.svg" width=500 />
 </div>
 
 <!-- <h2 align="center">Competitive Programming Stats</h2> -->
