@@ -26,16 +26,16 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&include_all_commits=false&count_private=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=101010&border_color=35373a
-          path: assets/gh-stat.svg
+          options: username=${{ github.repository_owner }}${{ vars.STAT_CARD_OPTIONS }}
+          path: ${{ vars.ASSETS_DIR }}/${{ vars.README_STAT_PREFIX }}.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=101010&border_color=35373a&hide=html,css,scss,jupyter%20notebook
-          path: assets/gh-stat-top-langs.svg
+          options: username=${{ github.repository_owner }}${{ vars.LANGS_CARD_OPTIONS }}
+          path: ${{ vars.ASSETS_DIR }}/${{ vars.README_STAT_PREFIX }}-top-langs.svg
           token: ${{ secrets.README_STAT_PAT }}
   
       # - name: Generate pin card
@@ -51,7 +51,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add assets/gh-stat*.svg
+          git add ${{ vars.ASSETS_DIR }}/${{ vars.README_STAT_PREFIX }}*.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
