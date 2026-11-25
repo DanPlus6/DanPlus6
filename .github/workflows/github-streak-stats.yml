@@ -8,6 +8,10 @@ on:
     paths:
       - ".github/workflows/github-streak-stats.yml" # Run any time this file is modified
 
+concurrency:
+  group: update-github-stats
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,10 +34,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add "assets/gh-streak*.svg"
-          git commit -m "Update streak stats" || exit 0
-          
-          git fetch origin main || exit 0
-          git rebase origin/main || exit 0
+          git add assets/gh-stat*.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update README stat cards"
+
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
           
           git push
