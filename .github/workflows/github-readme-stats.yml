@@ -8,6 +8,10 @@ on:
     paths:
       - ".github/workflows/github-readme-stats.yml" # Run any time this file is modified
       
+concurrency:
+  group: update-github-stats
+  cancel-in-progress: false
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,9 +52,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           git add assets/gh-stat*.svg
-          git commit -m "Update README stat cards" || exit 0
 
-          git fetch origin || exit 0
-          git rebase || exit 0
-          
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update README stat cards"
+
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
