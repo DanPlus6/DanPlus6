@@ -17,7 +17,7 @@
 <div align="center">
   <img alt="DanPlus6's Github Stats" src="./assets/github-stats.svg" width=500 /> 
   <img alt="DanPlus6's Top Languages" src="./assets/top-langs.svg" width=329 />
-  <img alt="DanPlus6's Github Streak" src="./assets/github-streak.svg" width=500 />
+  <img alt="DanPlus6's Github Streak" src="./assets/github-streak-stats.svg" width=500 />
 </div>
 
 <!-- <h2 align="center">Competitive Programming Stats</h2> -->
