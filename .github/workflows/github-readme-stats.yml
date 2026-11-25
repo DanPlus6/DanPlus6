@@ -58,8 +58,8 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update README stat cards"
+          git commit -m "Update README stat card(s)"
 
-          git fetch origin main
+          git fetch origin
           git rebase origin/main
-          git push origin HEAD:main
+          git push origin main
