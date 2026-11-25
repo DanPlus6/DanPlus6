@@ -5,7 +5,7 @@ on:
     - cron: "0 17 * * *"
   push:
     paths:
-      - ".github/workflows/streak-stats.yml" # Run any time this file is modified
+      - ".github/workflows/github-streak-stats.yml" # Run any time this file is modified
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=${{ github.repository_owner }}&theme=black-ice&hide_border=false&background=101010&border=35373a #&disable_animations=true
-          path: profile/streak.svg
+          path: assets/github-streak-stats.svg
 
       - name: Commit streak stats
         run: |
