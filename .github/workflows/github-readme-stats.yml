@@ -1,4 +1,4 @@
-name: Update github README stat cards
+name: Update github stat cards
 
 on:
   schedule:
