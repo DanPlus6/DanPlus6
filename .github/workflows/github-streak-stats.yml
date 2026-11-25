@@ -26,7 +26,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=${{ github.repository_owner }}&theme=black-ice&hide_border=false&background=101010&border=35373a #&disable_animations=true
-          path: assets/gh-streak-stats.svg
+          path: assets/gh-streak.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Commit streak stats
@@ -34,17 +34,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add assets/gh-stat*.svg
+          git add assets/gh-streak*.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          git commit -m "Update README stat cards"
+          git commit -m "Update README streak stat card(s)"
 
-          git fetch origin main
+          git fetch origin
           git rebase origin/main
-          git push origin HEAD:main
-          
-          git push
+          git push origin main
