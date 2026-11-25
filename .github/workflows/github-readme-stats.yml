@@ -22,7 +22,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true
+          options: username=${{ github.repository_owner }}&include_all_commits=false&count_private=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=101010&border_color=35373a
           path: assets/gh-stats.svg
           token: ${{ secrets.README_STAT_PAT }}
 
@@ -30,10 +30,10 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6
+          options: username=${{ github.repository_owner }}&langs_count=8&layout=compact&title_color=fff&text_color=00e7ff&bg_color=101010&border_color=35373a&hide=html,css,scss,jupyter%20notebook
           path: assets/gh-stat-top-langs.svg
           token: ${{ secrets.README_STAT_PAT }}
-
+  
       - name: Generate pin card
         uses: stats-organization/github-readme-stats-action@v2
         with:
