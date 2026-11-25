@@ -23,7 +23,7 @@ jobs:
         with:
           card: stats
           options: username=${{ github.repository_owner }}&include_all_commits=false&count_private=true&show_icons=true&title_color=fff&icon_color=00e7ff&text_color=9f9f9f&bg_color=101010&border_color=35373a
-          path: assets/gh-stats.svg
+          path: assets/gh-stat.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Generate top languages card
@@ -38,8 +38,8 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=stats-organization&repo=github-readme-stats
-          path: assets/gh-stats-org.svg
+          options: username=RGSS-CS
+          path: assets/gh-stat-org.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Commit cards
