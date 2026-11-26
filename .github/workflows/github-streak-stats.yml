@@ -25,8 +25,8 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=${{ github.repository_owner }}&theme=black-ice&hide_border=false&background=101010&border=35373a #&disable_animations=true
-          path: assets/gh-streak.svg
+          options: user=${{ github.repository_owner }}${{ vars.K_STREAK_OPTIONS }} #&disable_animations=true
+          path: ${{ vars.ASSETS_DIR }}/${{ vars.K_PREFIX }}.svg
           token: ${{ secrets.README_STAT_PAT }}
 
       - name: Commit streak stats
@@ -34,7 +34,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add assets/gh-streak*.svg
+          git add ${{ vars.ASSETS_DIR }}/${{ vars.K_PREFIX }}*.svg
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
