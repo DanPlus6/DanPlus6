@@ -1,22 +1,25 @@
 <div align="center">
   <img width="250px" height="250px" alt="Hi, I'm David! I do competitive programming and like to make cool things!" src="./assets/hi-hey.gif" /><br>
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FDanPlus6&label=Profile%20Views%20%F0%9F%91%8B&countColor=%232ccce4&style=flat" />
-
-  <h1>What's cooking in the kitchen</h1>
-  <p>
-    <blockquote><italics>It's goin' on in the kitchen, but I don't know what's cookin'</italics></blockquote>
-    <ul>
-      <li>robotics team website</li> 
-      <li>discord bot for robotics team</li>
-      <li>school cli utils (too lazy to reach for my calculator when doing math, chem or phys etc.) (may just end up dumbing down to a mere python script xd)</li>
-      <li>flashbang script to provide "graceful reminders" to help me fix my sleep schedule</li>
-      <li>blobcat collection (not really a project but whtv lol)</li>
-      <li>possibly an omnisearch-like extension for chromium browsers</li>
-      <li>portfolio website/blog website (place to display my poetry 🤷‍♂️)</li>
-      <li>do sm research and go thru pain of designing a cryptography convention just to find out it wont work 🥶</li>
-      <li>paranoid/supa dupa strict firewall whitelist for my apps (spotify bro i swear you do NOT need allat)</li>
-    </ul>
-  </p>
+  
+  <h1>What's cooking?</h1>
+  <div align="left">
+    <p align="left">
+      <blockquote><italics>It's goin' on in the kitchen, but I don't know what's cookin'</italics></blockquote>
+      <ul>
+        <li>robotics team website</li> 
+        <li>discord bot for robotics team</li>
+        <li>school cli utils (too lazy to reach for my calculator when doing math, chem or phys etc.) (may just end up dumbing down to a mere python script xd)</li>
+        <li>flashbang script to provide "graceful reminders" to help me fix my sleep schedule</li>
+        <li>blobcat collection (not really a project but whtv lol)</li>
+        <li>possibly an omnisearch-like extension for chromium browsers</li>
+        <li>portfolio website/blog website (place to display my poetry 🤷‍♂️)</li>
+        <li>do sm research and go thru pain of designing a cryptography convention just to find out it wont work 🥶</li>
+        <li>paranoid/supa dupa strict firewall whitelist for my apps (spotify bro i swear you do NOT need allat)</li>
+      </ul>
+    </p>
+  </div>
+  
  <h2 align="center">Let's Connect!</h2>
   <p align="center">
     <a href="https://www.linkedin.com/in/danplus6/" target="_blank">
