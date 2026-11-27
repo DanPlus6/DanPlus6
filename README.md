@@ -7,6 +7,7 @@
     <p align="left">
       <blockquote><italics>It's goin' on in the kitchen, but I don't know what's cookin'</italics></blockquote>
       <ul>
+        <li>actually lock in to competitive programming & maybe solution searcher website :bloblamp:</li>
         <li>robotics team website</li> 
         <li>discord bot for robotics team</li>
         <li>school cli utils (too lazy to reach for my calculator when doing math, chem or phys etc.) (may just end up dumbing down to a mere python script xd)</li>
