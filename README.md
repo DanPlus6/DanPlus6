@@ -31,6 +31,7 @@
 </div>
 
 <h2 align="center">GitHub Stats:</h2>
+<small><blockquote>lost 3k commits when i changed emails :blobsad:</blockquote></small>
 <div align="center">
   <img alt="DanPlus6's Github Stats" src="./assets/gh-stat.svg" width=500 /> 
   <img alt="DanPlus6's Top Languages" src="./assets/gh-stat-top-langs.svg" width=329 />
