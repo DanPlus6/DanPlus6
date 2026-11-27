@@ -12,11 +12,11 @@
         <li>discord bot for robotics team</li>
         <li>school cli utils (too lazy to reach for my calculator when doing math, chem or phys etc.) (may just end up dumbing down to a mere python script xd)</li>
         <li>flashbang script to provide "graceful reminders" to help me fix my sleep schedule</li>
-        <li>blobcat collection (not really a project but whtv lol)</li>
+        <li><a href="https://github.com/DanPlus6/emoji-collection">blobcat collection</a> (not really a project but whtv lol <img alt=":blobcatcozy:" src="https://github.com/DanPlus6/emoji-collection/blob/main/blobcat/blobcatcozy.png" width=20 />)</li>
         <li>possibly an omnisearch-like extension for chromium browsers</li>
         <li>portfolio website/blog website (place to display my poetry 🤷‍♂️)</li>
         <li>do sm research and go thru pain of designing a cryptography convention just to find out it wont work 🥶</li>
-        <li>paranoid/supa dupa strict firewall whitelist for my apps <img alt=":bloblamp:" src="https://github.com/DanPlus6/emoji-collection/blob/main/blobcat/meow_police.png" width=20 /> (spotify bro i swear you do NOT need allat)</li>
+        <li>paranoid/supa dupa strict firewall whitelist for my apps <img alt=":meow_police:" src="https://github.com/DanPlus6/emoji-collection/blob/main/blobcat/meow_police.png" width=20 /> (spotify bro i swear you do NOT need allat)</li>
       </ul>
     </p>
   </div>
