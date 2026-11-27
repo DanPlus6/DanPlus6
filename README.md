@@ -7,7 +7,7 @@
     <p align="left">
       <blockquote><italics>It's goin' on in the kitchen, but I don't know what's cookin'</italics></blockquote>
       <ul>
-        <li>actually lock in to competitive programming & maybe solution searcher website :bloblamp:</li>
+        <li>actually lock in to competitive programming & maybe solution searcher website <img alt=":bloblamp:" src="https://github.com/DanPlus6/emoji-collection/blob/main/blob/bloblamp.png" width=20 /></li>
         <li>robotics team website</li> 
         <li>discord bot for robotics team</li>
         <li>school cli utils (too lazy to reach for my calculator when doing math, chem or phys etc.) (may just end up dumbing down to a mere python script xd)</li>
@@ -16,7 +16,7 @@
         <li>possibly an omnisearch-like extension for chromium browsers</li>
         <li>portfolio website/blog website (place to display my poetry 🤷‍♂️)</li>
         <li>do sm research and go thru pain of designing a cryptography convention just to find out it wont work 🥶</li>
-        <li>paranoid/supa dupa strict firewall whitelist for my apps (spotify bro i swear you do NOT need allat)</li>
+        <li>paranoid/supa dupa strict firewall whitelist for my apps <img alt=":bloblamp:" src="https://github.com/DanPlus6/emoji-collection/blob/main/blobcat/meow_police.png" width=20 /> (spotify bro i swear you do NOT need allat)</li>
       </ul>
     </p>
   </div>
